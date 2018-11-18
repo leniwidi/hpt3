@@ -26,9 +26,9 @@ $( document ).ready( function() {
 
         $( '.activityContent' ).hide().prepend('<div class="activity">' +
            '<ul>' +
-           		'<li><img class="avatar" src="img/avatar.jpg" alt="avatar" /><img class="flag" src="img/flags/'+flag+'.png" alt="flag" /></li>' +
+           		'<li><img class="avatar" src="https://cdn.jsdelivr.net/gh/leniwidi/hpt3/img/avatar.jpg" alt="avatar" /><img class="flag" src="https://cdn.jsdelivr.net/gh/leniwidi/hpt3/img/flags/'+flag+'.png" alt="flag" /></li>' +
            		'<li><span>Name</span><br />'+user+'</li>' +
-                '<li><span>Gems</span><br /><img class="item-icon" src="img/bp.png"> <b>'+battlepointsRand+'</b></li>' +
+                '<li><span>Gems</span><br /><img class="item-icon" src="https://cdn.jsdelivr.net/gh/leniwidi/hpt3/img/bp.png"> <b>'+battlepointsRand+'</b></li>' +
                 '<li><span>Platform</span><br />'+platform+'</li>' +
            '</ul>' +
         '</div>').fadeIn();
